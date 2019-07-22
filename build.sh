@@ -21,6 +21,7 @@ clang                         \
     -o "$TGT_DIR/sndfilter"   \
     -fwrapv                   \
     -Werror                   \
+    -I$SRC_DIR/header         \
     -lm                       \
     "$SRC_DIR/main.cpp"         \
     "$SRC_DIR/mem.cpp"          \

@@ -7,15 +7,15 @@ include_directories(src)
 
 add_executable(sndfilter
         src/biquad.cpp
-        src/biquad.h
+        src/header/biquad.h
         src/compressor.cpp
-        src/compressor.h
+        src/header/compressor.h
         src/main.cpp
         src/mem.cpp
-        src/mem.h
+        src/header/mem.h
         src/reverb.cpp
-        src/reverb.h
+        src/header/reverb.h
         src/snd.cpp
-        src/snd.h
+        src/header/snd.h
         src/wav.cpp
-        src/wav.h)
+        src/header/wav.h)
