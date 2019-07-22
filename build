@@ -22,10 +22,10 @@ clang                         \
     -fwrapv                   \
     -Werror                   \
     -lm                       \
-    "$SRC_DIR/main.c"         \
-    "$SRC_DIR/mem.c"          \
-    "$SRC_DIR/snd.c"          \
-    "$SRC_DIR/wav.c"          \
-    "$SRC_DIR/biquad.c"       \
-    "$SRC_DIR/compressor.c"   \
-    "$SRC_DIR/reverb.c"
+    "$SRC_DIR/main.cpp"         \
+    "$SRC_DIR/mem.cpp"          \
+    "$SRC_DIR/snd.cpp"          \
+    "$SRC_DIR/wav.cpp"          \
+    "$SRC_DIR/biquad.cpp"       \
+    "$SRC_DIR/compressor.cpp"   \
+    "$SRC_DIR/reverb.cpp"
